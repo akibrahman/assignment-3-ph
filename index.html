@@ -79,15 +79,22 @@
               tabindex="0"
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+              <div class="flex items-center mt-4 relative">
+                <input
+                  type="text"
+                  placeholder="Search here"
+                  class="input w-full max-w-xs rounded-full ps-8"
+                />
+                <img
+                  class="w-7 h-7 absolute right-0"
+                  src="./images/search.png"
+                  alt=""
+                />
+              </div>
             </ul>
           </div>
           <div class="flex">
@@ -281,9 +288,12 @@
     <main class="container mx-auto mb-52">
       <!-- Deal of the Day Section  -->
       <section class="w-5/6 mx-auto mt-10 lg:mt-60">
+        <!-- Deal and Timer  -->
         <div class="flex flex-col lg:flex-row gap-10 lg:gap-0">
           <div class="flex-1 text-center lg:text-left">
-            <h1 class="text-5xl font-bold text-[#121212] mb-6">
+            <h1
+              class="text-3xl lg:text-5xl font-bold text-[#121212] mb-3 lg:mb-6"
+            >
               Deal of the day
             </h1>
             <p class="text-[#717171] text-base leading-6">
@@ -298,7 +308,7 @@
             <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
               <div class="flex flex-col text-[#717171] leading-6 text-base">
                 <span
-                  class="countdown font-main text-5xl text-[#121212] font-bold"
+                  class="countdown font-main text-3xl lg:text-5xl text-[#121212] font-bold"
                 >
                   <span style="--value: 29"></span>
                 </span>
@@ -307,7 +317,7 @@
               <p class="text-4xl">:</p>
               <div class="flex flex-col text-[#717171] leading-6 text-base">
                 <span
-                  class="countdown font-main text-5xl text-[#121212] font-bold"
+                  class="countdown font-main text-3xl lg:text-5xl text-[#121212] font-bold"
                 >
                   <span style="--value: 15"></span>
                 </span>
@@ -316,7 +326,7 @@
               <p class="text-4xl">:</p>
               <div class="flex flex-col text-[#717171] leading-6 text-base">
                 <span
-                  class="countdown font-main text-5xl text-[#121212] font-bold"
+                  class="countdown font-main text-3xl lg:text-5xl text-[#121212] font-bold"
                 >
                   <span style="--value: 25"></span>
                 </span>
@@ -325,7 +335,7 @@
               <p class="text-4xl">:</p>
               <div class="flex flex-col text-[#717171] leading-6 text-base">
                 <span
-                  class="countdown font-main text-5xl text-[#121212] font-bold"
+                  class="countdown font-main text-3xl lg:text-5xl text-[#121212] font-bold"
                 >
                   <span style="--value: 08"></span>
                 </span>
