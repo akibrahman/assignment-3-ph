@@ -49,10 +49,10 @@
       >
         <div class="navbar-start hidden lg:block">
           <ul class="menu menu-horizontal px-1 text-lg">
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Shop</a></li>
-            <li><a>All Fruits</a></li>
+            <li><a class="hover:text-white">Home</a></li>
+            <li><a class="hover:text-white">About Us</a></li>
+            <li><a class="hover:text-white">Shop</a></li>
+            <li><a class="hover:text-white">All Fruits</a></li>
           </ul>
         </div>
         <div
@@ -83,7 +83,7 @@
               <li><a>About Us</a></li>
               <li><a>Shop</a></li>
               <li><a>All Fruits</a></li>
-              <div class="flex items-center mt-4 relative">
+              <div class="flex items-center mt-4 relative text-main">
                 <input
                   type="text"
                   placeholder="Search here"
@@ -97,7 +97,7 @@
               </div>
             </ul>
           </div>
-          <div class="flex">
+          <div class="flex pointer-events-none">
             <img class="w-12" src="./images/logo.png" alt="" />
             <a class="btn btn-ghost normal-case text-xl md:text-4xl font-bold"
               >Fruit Burst</a
@@ -108,7 +108,7 @@
           <input
             type="text"
             placeholder="Search here"
-            class="input w-full max-w-xs rounded-full ps-8"
+            class="input w-full max-w-xs rounded-full ps-8 text-main font-bold"
           />
           <img class="absolute right-4" src="./images/search.png" alt="" />
         </div>
@@ -131,7 +131,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="btn border-0 hover:bg-main bg-main text-lg font-bold text-white capitalize"
+                class="btn border-0 hover:bg-main bg-main text-sm md:text-lg font-bold text-white capitalize px-2 md:px-4 min-h-0 h-max py-2"
               >
                 Shop Now
               </button>
@@ -167,7 +167,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="btn border-0 hover:bg-main bg-main text-lg font-bold text-white capitalize"
+                class="btn border-0 hover:bg-main bg-main text-sm md:text-lg font-bold text-white capitalize px-2 md:px-4 min-h-0 h-max py-2"
               >
                 Shop Now
               </button>
@@ -202,7 +202,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="btn border-0 hover:bg-main bg-main text-lg font-bold text-white capitalize"
+                class="btn border-0 hover:bg-main bg-main text-sm md:text-lg font-bold text-white capitalize px-2 md:px-4 min-h-0 h-max py-2"
               >
                 Shop Now
               </button>
@@ -237,7 +237,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="btn border-0 hover:bg-main bg-main text-lg font-bold text-white capitalize"
+                class="btn border-0 hover:bg-main bg-main text-sm md:text-lg font-bold text-white capitalize px-2 md:px-4 min-h-0 h-max py-2"
               >
                 Shop Now
               </button>
@@ -287,7 +287,7 @@
     </header>
     <main class="container mx-auto mb-52">
       <!-- Deal of the Day Section  -->
-      <section class="w-5/6 mx-auto mt-10 lg:mt-60">
+      <section class="w-5/6 mx-auto mt-10 lg:mt-60 mb-28">
         <!-- Deal and Timer  -->
         <div class="flex flex-col lg:flex-row gap-10 lg:gap-0">
           <div class="flex-1 text-center lg:text-left">
@@ -987,6 +987,88 @@
                   class="btn bg-main hover:bg-main text-white border-0 capitalize"
                   >But Now</label
                 >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <button
+            class="btn bg-main text-white text-xl capitalize font-bold hover:bg-main mt-10 block mx-auto"
+          >
+            Shop All
+          </button>
+        </div>
+      </section>
+      <!-- Team Section  -->
+      <section class="w-5/6 mx-auto">
+        <div
+          class="hero min-h-[600px] bg-banner-1 bg-cover bg-no-repeat bg-center rounded-lg"
+        >
+          <div class="hero-overlay bg-black bg-opacity-60 rounded-lg"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-xl">
+              <h1 class="mb-5 text-xl md:text-5xl font-bold">
+                Meet the team section
+              </h1>
+              <p class="mb-5">
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old.
+              </p>
+              <!-- Team Wrapper -->
+              <div
+                class="flex flex-col md:flex-row gap-5 md:gap-20 justify-center md:flex-wrap lg:flex-nowrap"
+              >
+                <!-- Member 1 -->
+                <div class="flex flex-col items-center py-4">
+                  <img class="mb-5" src="./images/member1.png" alt="" />
+                  <p class="text-white text-2xl font-bold w-48">
+                    Awlad Hossain
+                  </p>
+                  <p class="text-white text-base">Fruits Expert</p>
+                  <div class="flex gap-3 mt-3">
+                    <img src="./images/facebook.png" alt="" />
+                    <img src="./images/twitter.png" alt="" />
+                    <img src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+                <!-- Member 2 -->
+                <div class="flex flex-col items-center py-4">
+                  <img class="mb-5" src="./images/member2.png" alt="" />
+                  <p class="text-white text-2xl font-bold w-48">
+                    Safia Chowdhury
+                  </p>
+                  <p class="text-white text-base">Fruits Expert</p>
+                  <div class="flex gap-3 mt-3">
+                    <img src="./images/facebook.png" alt="" />
+                    <img src="./images/twitter.png" alt="" />
+                    <img src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+                <!-- Member 3 -->
+                <div class="flex flex-col items-center py-4">
+                  <img class="mb-5" src="./images/member3.png" alt="" />
+                  <p class="text-white text-2xl font-bold w-48">
+                    Rokib Hossain
+                  </p>
+                  <p class="text-white text-base">Fruits Expert</p>
+                  <div class="flex gap-3 mt-3">
+                    <img src="./images/facebook.png" alt="" />
+                    <img src="./images/twitter.png" alt="" />
+                    <img src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+                <!-- Member 4 -->
+                <div class="flex flex-col items-center py-4">
+                  <img class="mb-5" src="./images/member4.png" alt="" />
+                  <p class="text-white text-2xl font-bold w-48">Chaity</p>
+                  <p class="text-white text-base">Fruits Expert</p>
+                  <div class="flex gap-3 mt-3">
+                    <img src="./images/facebook.png" alt="" />
+                    <img src="./images/twitter.png" alt="" />
+                    <img src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
